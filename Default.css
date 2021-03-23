@@ -1,0 +1,87 @@
+.navbar{
+    font-size:30px;
+    background-color: rgba(13, 110, 245, 0.671);
+    color: white;
+}
+.navbar-brand{
+    font-size:30px;
+}
+#Introduction{
+    font-weight:bolder;
+    padding:120px;
+    text-align:left;
+    background-color: rgb(192, 235, 236);
+}
+p{
+    font-size:18px;
+}
+#project,
+#project-1,
+#project-2{
+    font-weight:bolder;
+    padding:40px;
+    text-align:left;
+    background-color: rgb(192, 235, 236);
+    background-color: rgb(192, 235, 236); 
+    margin: 15px;
+    border:10px rgba(8, 156, 124, 0.657) solid;
+    border-radius:50px;
+    height:650px;
+    width:300px;
+}
+.project-image{
+    border-radius:10px;
+    border:2px white solid;
+    width:400px;
+    height:200px;
+}
+#PacMen-img{
+    object-fit:fill;
+}
+body{
+    background-color: rgb(241, 211, 155);
+}
+h3{
+    font-family: 'Lobster', cursive;
+}
+#logo{
+    font-family: 'Lobster', cursive;  
+
+}
+#home-link,
+#projects-link{
+    margin-left:10px;
+    font-family: 'Vast Shadow', cursive;
+}
+#background{
+    background-color: white ;
+}
+#Bio{
+    display:flex;
+}
+#Bio-Image{
+    margin-right:25px;
+}
+a{
+    border:4px rgba(240, 173, 49, 0.883) solid;
+    padding: 15px;
+    color:rgb(240, 173, 49, 0.883);
+    margin-top:40px;
+    border-radius:25px;
+}
+#social-links{
+    margin-top: 25px;
+}
+#logo,
+#home-link,
+#projects-link{
+    margin-top:0px;
+}
+footer{
+    background-color: rgba(13, 110, 245, 0.671);
+    height:50px;
+    font-size:18px;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 10px;
+}
