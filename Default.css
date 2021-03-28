@@ -1,16 +1,22 @@
 .navbar{
     font-size:30px;
     background-color: rgba(13, 110, 245, 0.671);
-    color: white;
+    color: black;
 }
 .navbar-brand{
     font-size:30px;
 }
 #Introduction{
     font-weight:bolder;
-    padding:120px;
+    padding:20px;
     text-align:left;
-    background-color: rgb(192, 235, 236);
+    border:2px  black solid;
+    height:400px;
+    width:600px;
+    border-radius:20px;
+    margin:20px;
+    margin-right:50px;
+    background-color:  rgba(255, 255, 255, 0.253); 
 }
 p{
     font-size:18px;
@@ -78,10 +84,78 @@ a{
     margin-top:0px;
 }
 footer{
-    background-color: rgba(13, 110, 245, 0.671);
-    height:50px;
+    background-color:  rgba(13, 110, 245, 0.671);
+    height:80px;
     font-size:18px;
     text-align: center;
     font-weight: bolder;
-    padding-top: 10px;
+    padding-top: 30px;
 }
+#background-image-beach{
+    background-image:url("./images/LandingPageBeach.jpg");
+    height:700px;
+ padding: 100px;
+ padding-top:50px;
+ padding-bottom:50px;
+ background-position:center;
+ background-size:cover;
+ background-repeat:no-repeat;
+ background-attachment:fixed;
+}
+#video-Introduction{
+    border:2px black solid;
+    border-radius: 20px;
+    height: 400px;
+    margin-top: 20px;
+    width:600px;
+    background-color:  rgba(255, 255, 255, 0.253);
+}  
+#vid{
+    width:500px; height:275px; margin-left :50px;
+}
+.Git-div{
+    display:inline;
+}
+@media only screen and (max-width:600px){
+        #background-image-beach{
+            height:1700px;
+            padding:15px;
+        }
+    #Introduction,
+    #video-Introduction{
+        width:275px;
+        height:850px;
+        font-size:18px;
+        padding-bottom:50px;
+
+    }
+    #Bio{
+        display:block;
+    }
+    #video-Introduction{
+     margin-left:15px;
+     height:500px;
+     padding:10px;
+     padding-left:0px;
+    }
+    #logo{
+        font-size:20px;
+    }
+    #vid {
+        margin:10px;
+        width:250px;
+    }
+    footer{
+        height:300px;
+        display:block;
+    }
+    .Git-div{
+        display:block;
+        margin:30px;
+    }  
+    #Best-Info{
+        font-size: 15px;
+    }
+    
+}
+
